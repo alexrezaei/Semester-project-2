@@ -1,0 +1,27 @@
+nav {
+  background-color: #00171F;
+}
+
+nav a {
+  color: #FFFFFF;
+}
+
+nav a.nav-link {
+  color: #FFFFFF;
+}
+
+nav li {
+  color: #FFFFFF;
+}
+
+nav ul {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+nav li img {
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=style.css.map */
