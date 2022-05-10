@@ -1,0 +1,29 @@
+.product {
+    width: 350px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../../../files/img/mesh-gradient.png);
+    background-size: cover;
+    border-radius: 25px;
+    h3 {
+        margin: 55px;
+        font-size: 2rem;
+        text-align: center;
+        color: getColour(dark-blue);
+    }
+    .premium {
+        color: getColour(white);
+    }
+    .featured__text {
+        display: flex;
+        align-items: center;
+        padding-left: 31px;
+        margin-bottom: 34px;
+        color: getColour(dark-blue);
+        p {
+            font-size: 1.6rem;
+            margin-left: 15px;
+        }
+    }
+}

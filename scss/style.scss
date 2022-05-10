@@ -1,2 +1,26 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+/* Scss */
 @import "./partials/variables";
-@import "./components/navbar"
+@import "./components/navbar";
+@import "./components/hero";
+@import "./components/featured";
+html {
+    font-size: 10px;
+}
+
+body {
+    background: getColour(dark-blue);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}

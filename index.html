@@ -4,70 +4,86 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./scss/style.css">
     <title>Zipniss Homepage</title>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Zipniss</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">products</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"><img src="./files/img/Shopping Basket 1.svg" alt=""></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
+      <nav>
+        <div class="nav-open">
+          <p class="logo">Zipniss</p>
+          <i class="fa-solid fa-bars" id="burger-menu"></i>
+        </div>
+        <ul class="menu">
+          <div class="links">
+            <li><a href="">Home</a></li>
+            <li><a href="">Home</a></li>
+          </div>
+          <div class="icons">
+            <li><a href=""><i class="fa-solid fa-basket-shopping"></i></a></li>
+            <li><a href=""><i class="fa-solid fa-user"></i></a></li>
+          </div>
+        </ul>
+      </nav>
     </header>
     <main>
         <div class="hero">
             <h1><span>Unlock</span> your finances with zipniss</h1>
             <div class="img-container">
-                <img src="" alt="">
+                <img src="http://localhost:1337/uploads/lock_f5b3b2a862.png" alt="">
             </div>
         </div>
         <div class="featured">
             <h2>Featured</h2>
             <div class="flex-row">
                 <div class="product">
+                    <h3>Basic</h3>
                     <div class="featured__text">
-                        <h3>Basic</h3>
-                        <img src="" alt="">
+                        <i class="fa-solid fa-check"></i>
                         <p>24/7 support</p>
+                    </div>
+                    <div class="featured__text">
+                        <i class="fa-solid fa-check"></i>
                         <p>Access to our primary software</p>
                     </div>
+                    <div class="featured__text">
+                        <i class="fa-solid fa-check"></i>
+                        <p>Guaranteed 96% uptime</p>
+                    </div>
+                    <a href="" class="product-btn">Learn More</a>
                 </div>
                 <div class="product">
-                    <div class="featured__text">
-                        <h3>Premium</h3>
-                        <img src="" alt="">
-                        <p>24/7 support</p>
-                        <p>Access to our primary software</p>
-                    </div>
+                  <h3 class="premium">Premium</h3>
+                  <div class="featured__text">
+                      <i class="fa-solid fa-check"></i>
+                      <p>24/7 support</p>
+                  </div>
+                  <div class="featured__text">
+                      <i class="fa-solid fa-check"></i>
+                      <p>Access to our primary software</p>
+                  </div>
+                  <div class="featured__text">
+                      <i class="fa-solid fa-check"></i>
+                      <p>Guaranteed 96% uptime</p>
+                  </div>
+                  <a href="" class="product-btn">Learn More</a>
                 </div>
                 <div class="product">
-                    <div class="featured__text">
-                        <h3>professional</h3>
-                        <img src="" alt="">
-                        <p>24/7 support</p>
-                        <p>Access to our primary software</p>
-                    </div>
+                  <h3>Business</h3>
+                  <div class="featured__text">
+                      <i class="fa-solid fa-check"></i>
+                      <p>24/7 support</p>
+                  </div>
+                  <div class="featured__text">
+                      <i class="fa-solid fa-check"></i>
+                      <p>Access to our primary software</p>
+                  </div>
+                  <div class="featured__text">
+                      <i class="fa-solid fa-check"></i>
+                      <p>Guaranteed 96% uptime</p>
+                  </div>
+                  <a href="" class="product-btn">Learn More</a>
                 </div>
             </div>
         </div>

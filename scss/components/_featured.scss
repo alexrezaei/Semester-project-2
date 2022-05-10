@@ -1,0 +1,24 @@
+@import "../components/product-card/product-card";
+.featured {
+    margin-top: 68px;
+    h2 {
+        text-align: center;
+        font-size: 2.4rem;
+        color: getColour(white);
+        margin-bottom: 45px;
+    }
+    .flex-row {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .product {
+        margin-bottom: 32px;
+    }
+    @media (min-width: 768px) {
+        .flex-row {
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+    }
+}
