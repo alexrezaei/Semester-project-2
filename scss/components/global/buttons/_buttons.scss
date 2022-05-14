@@ -1,0 +1,43 @@
+/* products buttons */
+
+.product-btn {
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 15px 74px 15px 74px;
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.product-btn.light {
+    border: 2px solid getColour(white);
+    color: getColour(white);
+    &:hover {
+        background-color: getColour(dark-blue);
+        border: 2px solid getColour(dark-blue);
+    }
+}
+
+.product-btn.premium {
+    background-color: getColour(dark-blue);
+    border: 2px solid getColour(dark-blue);
+    &:hover {
+        border: 2px solid getColour(white);
+    }
+}
+
+/* Admin page buttons */
+
+.admin-btn {
+    font-size: 2.4rem;
+    padding: 20px 30px 20px 30px;
+    text-decoration: none;
+    color: getColour(dark-blue);
+    border-radius: 25px;
+    background-image: url(/files/img/mesh-gradient.png);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 30px;
+}

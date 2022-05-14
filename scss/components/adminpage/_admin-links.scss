@@ -1,0 +1,12 @@
+.buttons__admin {
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    @media (min-width: 768px) {
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        max-width: 600px;
+    }
+}

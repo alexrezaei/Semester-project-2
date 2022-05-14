@@ -1,16 +1,19 @@
+@import "../buttons/buttons";
 .product {
     width: 350px;
     height: 450px;
     display: flex;
+    align-items: flex-start;
     flex-direction: column;
-    background-image: url(../../../files/img/mesh-gradient.png);
+    background-image: url(../../../files/img/output-onlinepngtools.png);
     background-size: cover;
     border-radius: 25px;
     h3 {
-        margin: 55px;
+        margin: 66px auto 36px auto;
         font-size: 2rem;
         text-align: center;
         color: getColour(dark-blue);
+        font-weight: bold;
     }
     .premium {
         color: getColour(white);
@@ -25,5 +28,8 @@
             font-size: 1.6rem;
             margin-left: 15px;
         }
+    }
+    .product-btn {
+        margin: 42px auto 0 auto;
     }
 }

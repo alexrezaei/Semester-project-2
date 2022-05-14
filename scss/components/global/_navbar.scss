@@ -1,0 +1,93 @@
+nav {
+    .logo {
+        font-weight: bold;
+        font-size: 3rem;
+    }
+    .nav-open {
+        color: getColour(white);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 76px;
+        padding: 0 37px 0 37px;
+        i {
+            font-size: 20px;
+        }
+    }
+    .menu {
+        position: absolute;
+        z-index: 9;
+        height: 50vh;
+        width: 100%;
+        background-color: getColour(dark-blue);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: 0.4s;
+        .links {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        .link-item {
+            margin: 20px 0 20px 0;
+            font-weight: bold;
+            font-size: 2rem;
+            list-style-type: none;
+            a {
+                text-decoration: none;
+                color: getColour(white);
+            }
+        }
+        .icons {
+            display: flex;
+            list-style-type: none;
+            margin-top: 20px;
+            li {
+                width: 100%;
+                &:first-child {
+                    margin-right: 24px;
+                }
+            }
+            i {
+                font-size: 24px;
+                color: getColour(white);
+            }
+        }
+    }
+    .menu.hide {
+        display: none;
+    }
+}
+
+@media (min-width: 1040px) {
+    nav {
+        display: flex;
+        flex-direction: row;
+        padding: 0 37px 0 37px;
+        .nav-open {
+            padding: 0;
+            .fa-bars {
+                display: none;
+            }
+        }
+        .menu {
+            position: unset;
+            height: unset;
+            z-index: unset;
+            flex-direction: row;
+            .links {
+                flex-direction: row;
+                justify-content: flex-end;
+                margin-right: 100px;
+                li {
+                    margin-left: 20px;
+                }
+            }
+            .icons {
+                margin: 0;
+            }
+        }
+    }
+}

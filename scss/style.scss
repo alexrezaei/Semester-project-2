@@ -2,11 +2,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
 /* Scss */
 @import "./partials/variables";
-@import "./components/navbar";
-@import "./components/hero";
-@import "./components/featured";
+@import "./components/global/navbar";
+@import "./components/global/buttons/buttons";
+@import "./components/homepage/featured";
+@import "./components/homepage/info-homepage";
+/* ADmin page */
+@import "./components/adminpage/admin-hero";
+@import "./components/adminpage/admin-links";
 html {
     font-size: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+a,
+p {
+    font-family: "Kumbh Sans", sans-serif;
 }
 
 body {
