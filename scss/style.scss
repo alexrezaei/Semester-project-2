@@ -9,6 +9,12 @@
 /* ADmin page */
 @import "./components/adminpage/admin-hero";
 @import "./components/adminpage/admin-links";
+/* Edit page */
+@import "./components/editpage/editpage";
+/* login page */
+@import "./components/login/login";
+/* Homepage */
+@import "./components/homepage/hero";
 html {
     font-size: 10px;
 }
@@ -18,7 +24,9 @@ h2,
 h3,
 h4,
 a,
-p {
+p,
+label,
+input {
     font-family: "Kumbh Sans", sans-serif;
 }
 
