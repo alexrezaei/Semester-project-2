@@ -1,5 +1,14 @@
 .login__page {
     form {
+        button {
+            font-size: 2rem;
+            padding: 6px 23px 6px 23px;
+            width: 200px;
+            background-color: transparent;
+            border: 1px solid getColour(white);
+            color: getColour(white);
+            border-radius: 10px;
+        }
         .form-control {
             display: flex;
             flex-direction: column;
