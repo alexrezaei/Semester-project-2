@@ -16,7 +16,7 @@
         font-weight: bold;
     }
     .premium {
-        color: getColour(white);
+        color: getColour(white);        
     }
     .featured__text {
         display: flex;
@@ -29,7 +29,14 @@
             margin-left: 15px;
         }
     }
+    .price {
+        font-size: 2rem;
+        font-weight: bold;
+        margin: 0 auto;
+        color: getColour(white);
+    }
     .product-btn {
-        margin: 42px auto 0 auto;
+        margin-top: 20px;
+        margin-left: 49px;
     }
 }
