@@ -4,7 +4,7 @@ const form = document.querySelector("#loginForm");
 const username = document.querySelector("#username");
 const password = document.querySelector("#password");
 const errorContainer = document.querySelector(".error-message");
-const baseUrl = "http://localhost:1337/";
+const baseUrl = "https://semesteroppgave.herokuapp.com/";
 form.addEventListener("submit", submitLogin);
 
 function submitLogin(event) {

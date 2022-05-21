@@ -1,4 +1,4 @@
-const baseUrl = "http://localhost:1337/";
+const baseUrl = "https://semesteroppgave.herokuapp.com/";
 const featuredContainer = document.querySelector("#featured");
 
 export async function loadFeatured() {
@@ -6,7 +6,6 @@ export async function loadFeatured() {
     try {
         const res = await fetch(url);
         const json = await res.json();
-        console.log(json);
         json.forEach((product) => {
             if (product.featured === true && product.title !== "Premium") {
                 featuredContainer.innerHTML += `
@@ -25,7 +24,7 @@ export async function loadFeatured() {
                     <p>Guaranteed 96% uptime</p>
                 </div>
                 <p class="price">$${product.price}<p>
-                <a href="" class="product-btn light">Learn More</a>
+                <a href="product.html?id=${product.id}" class="product-btn light">Learn More</a>
                 </div>
                 `;
             }
@@ -46,10 +45,10 @@ export async function loadFeatured() {
                       <p>Guaranteed 96% uptime</p>
                   </div>
                   <p class="price">$${product.price}<p>
-                  <a href="product.html?=${product.id}" class="product-btn premium">Learn More</a>
+                  <a href="product.html?id=${product.id}" class="product-btn premium">Learn More</a>
                 </div>
                 `;
             }
         });
-    } catch {}
+    } catch (error) {}
 }
