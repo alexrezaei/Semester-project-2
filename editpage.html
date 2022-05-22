@@ -38,10 +38,9 @@
             <form action="" class="edit">
                 <div class="get-product">
                     <label for="id">Product id</label>
-                    <input type="text" name="id" id="id">
+                    <input type="text" name="id" id="product-id">
                     <div class="btns">
-                        <button type="submit">Get product</button>
-                        <button type="submit">Delete</button>
+                        <button type="submit" id="delete">Delete</button>
                     </div>
                 </div>
                 <div class="edit">
@@ -55,7 +54,8 @@
                     <textarea name="description" id="description" cols="30" rows="10"></textarea>
                     <label for="featured">Featured</label>
                     <input type="checkbox" id="featured" name="featured">
-                    <button type="Submit">Edit product</button>
+                    <button type="submit" id="edit-product">Edit product</button>
+                    <button type="submit" id="add-product">Add product</button>
                 </div>
             </form>
         </div>
@@ -75,5 +75,6 @@
     </footer>
     <script src="./js/main.js" type="module"></script>
     <script src="./js/navbar/nav.js"></script>
+    <script src="./js/edit-products.js" type="module"></script>
 </body>
 </html>
