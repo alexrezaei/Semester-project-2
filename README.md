@@ -40,7 +40,7 @@ Project is stricly html and javascript just running a local server will work to 
 
 ## Contributing
 
-Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate `CONTRIBUTING.md` and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
+Please make sure you make a pull request so that the code can be reviewed before further action can be taken.
 
 ## Contact
 
