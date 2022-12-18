@@ -42,7 +42,6 @@ export function submitProduct() {
             try {
                 const res = await fetch(baseUrl, headers);
                 const json = await res.json();
-                console.log(json);
             } catch {}
         }
         addProduct();

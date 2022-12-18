@@ -8,6 +8,10 @@
             border: 1px solid getColour(white);
             color: getColour(white);
             border-radius: 10px;
+            &:hover {
+                background-color: getColour(white);
+                color: black;
+            }
         }
         .form-control {
             display: flex;

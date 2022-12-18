@@ -1,0 +1,39 @@
+.nav-footer {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .logo {
+        font-size: 2.7rem;
+        font-weight: bold;
+        color: getColour(white);
+    }
+    ul {
+        list-style-type: none;
+        li {
+            margin-top: 20px;
+            a {
+                font-size: 2rem;
+                text-decoration: none;
+                color: getColour(white);
+            }
+        }
+    }
+}
+
+@media (min-width:768px) {
+    .nav-footer {
+        padding: 0px 37px 0 37px;
+        flex-direction: row;
+        justify-content: space-between;
+        ul {
+            display: flex;
+            li {
+                margin-top: 0;
+                margin-left: 20px;
+            }
+        }
+    }
+}

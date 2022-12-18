@@ -1,8 +1,9 @@
 /* Font */
-@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 /* Scss */
 @import "./partials/variables";
 @import "./components/global/navbar";
+@import "./components/global/navbar-footer";
 @import "./components/global/buttons/buttons";
 @import "./components/homepage/featured";
 @import "./components/homepage/info-homepage";
@@ -19,6 +20,8 @@
 @import "./components/productpage/productPage";
 /* Products Page */
 @import "./components/productspage/productspage";
+/* Cart Page */
+@import "./components/cartpage/cartpage";
 html {
     font-size: 10px;
 }
@@ -31,7 +34,7 @@ a,
 p,
 label,
 input {
-    font-family: "Kumbh Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {

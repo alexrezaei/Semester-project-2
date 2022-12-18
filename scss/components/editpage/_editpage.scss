@@ -47,6 +47,10 @@
             border: 1px solid getColour(white);
             color: getColour(white);
             border-radius: 10px;
+            &:hover {
+                background-color: white;
+                color: black;
+            }
         }
         label {
             margin-bottom: 15px;
